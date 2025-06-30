@@ -1,0 +1,59 @@
+body{
+    background-color:bisque;
+    /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/02/Pine_wood_Table_Top_2.jpg"); */
+    margin:0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    z-index: 50;
+    --above-all-in-container: 10000;
+
+    overflow: hidden;
+    padding: 20px 10px;
+    margin:0;
+
+    background-color:antiquewhite;
+    font-family: "Ga Maamli", sans-serif;
+    font-size: 40pt;
+}
+
+/* buttons */
+.comic-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff5252;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.comic-button:hover {
+  background-color: #fff;
+  color: #ff5252;
+  border: 2px solid #ff5252;
+  box-shadow: 5px 5px 0px #ff5252;
+}
+.comic-button:active {
+  background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+/* Fonts */
+.loved-by-the-king-regular {
+  font-family: "Loved by the King", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.ga-maamli-regular {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
